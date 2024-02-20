@@ -1,10 +1,9 @@
 def get_numbers():
-    try:
-        numbers = int(input("Enter valid_numbers: "))
-    except ValueError:
-        print("Invalid input")
-    else:
-        return numbers
+    """Function gets number"""
+    text = input("Enter numbers separated by commas: ")
+    values = text.split(' , ')
+    numbers = [float(value) for value in values]
+    return numbers
 
 
 def square_numbers(numbers):
