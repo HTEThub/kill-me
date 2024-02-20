@@ -12,6 +12,7 @@ def square_numbers(numbers):
 
 
 def display_numbers(numbers):
+    """ display numbers """
     pass
 
 
