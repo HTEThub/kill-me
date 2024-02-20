@@ -1,5 +1,10 @@
 def get_numbers():
-    pass
+    try:
+        numbers = int(input("Enter valid_numbers: "))
+    except ValueError:
+        print("Invalid input")
+    else:
+        return numbers
 
 
 def square_numbers(numbers):
@@ -15,4 +20,7 @@ def main():
     square_numbers(numbers)
     display_numbers(numbers)
 
+
 # Like garlic bread
+
+main()
