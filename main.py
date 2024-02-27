@@ -21,6 +21,6 @@ def main():
     display_numbers(numbers)
 
 
-# Like garlic bread
+# I Like garlic bread
 
 main()
