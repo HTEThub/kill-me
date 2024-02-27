@@ -2,24 +2,26 @@ import csv
 
 
 def main():
-    """Main program"""
-   MENU = ""
-   countries =
-   print(MENU)
-   choice = input("Enter choice: ").lower()
-   while choice != "Q":
-        if choice == "D":
-            print_countries
-        else if choice == <second option>
+    """Main Program"""
+    countries = get_countries()
+    print(MENU)
+    choice = input("Enter choice: ").lower()
+    while choice != "Q":
+        if choice == <first option>:
+            <do first task>
+        elif choice == <second option>:
             <do second task>
-        ...
-        else if choice == <n-th option>
+        elif choice == <n-th option>:
             <do n-th task>
-        else
+        else:
             display invalid input error message
-        display menu
-        get choice
+        print(MENU)
+        choice = input("Enter choice: ").lower()
     <do final thing, if needed>
+
+
+def get_countries():
+    pass
 
 def print_countries():
     """Print countries"""
